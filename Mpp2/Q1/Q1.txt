@@ -1,0 +1,5 @@
+Faça um programa que verifique de forma sequencial se potencialmente os protocolos a seguir estão executando na máquina-alvo 
+snmp.cin.ufpe.br : FTP, SSH, Telnet, WHOIS, DNS, HTTP, Skype, POP3, HTTPS, VMWare Server Console, Kazaa, Microsoft SQL Monitor, 
+Windows Live Messenger, UPnP, VNC remote desktop protocol, VNC remote desktop protocol (over HTTP).
+Considere apenas portas TCP. Execute no CIn ou via VPN para o CIn.  
+O programa deverá imprimir na tela o resultado para cada protocolo testado, incluindo seu número de porta.
