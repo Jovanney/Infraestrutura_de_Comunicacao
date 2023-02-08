@@ -1,0 +1,16 @@
+Implemente um chat que usa uma abordagem P2P híbrida, ou seja, cliente-servidor e P2P pura. Deverá haver dois clientes P2P que ao iniciarem o processo da camada de aplicação entram em contato com o servidor para informar seus status (sempre online) e seus dados de contato (nome do usuário, IP e porta).  Em seguida, cada cliente P2P deverá pegar do servidor os dados do outro cliente P2P para iniciarem um chat usando a abordagem P2P pura, ou seja, eles vão trocar mensagens diretamente sem passar pelo servidor. Os usuários devem obrigatoriamente trocar (receber e enviar) mensagens simultaneamente entre si de forma bidirecional.  
+
+OBs.:
+Escolha um nome para cada usuário; 
+Todas as mensagens enviadas deverão ser numeradas sequencialmente (#1, #2, #3, …), conter o nome do usuário emissor, a data e hora do sistema. Printe as informações na tela. Exemplo:
+
+p2pmaster #1 (enviado 07-09-22 15:14h): Ops! Tô ligado!
+
+Cada mensagem recebida deverá ser impressa na tela com as seguintes informações: nome do usuário remetente, número de sequência recebido, data/horário de envio, data/horário de recebimento. Exemplo:
+
+      p2pmaster #1 (enviado 07-09-22 15:14h / recebido 07-09-22 15:15h): Ops! Tô ligado!
+
+O emissor da mensagem deverá receber a confirmação de mensagem recebida e imprimir essa informação na tela. Exemplo:
+
+p2pmaster #1 (enviado 07-09-22 15:14h): Ops! Tô ligado!
+p2pmonster diz #1 recebida
